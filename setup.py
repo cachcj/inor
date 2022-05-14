@@ -18,7 +18,7 @@ def def_requirements():
 
 setuptools.setup(
     name="inor",
-    version='0.0.1',
+    version='0.0.2',
     description='Package Manager Backend',
     long_description=read_description(),
     long_description_content_type="text/markdown",
