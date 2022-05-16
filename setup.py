@@ -18,8 +18,9 @@ def def_requirements():
 
 setuptools.setup(
     name="inor",
-    version='0.0.2',
+    version='0.0.3',
     description='Package Manager Backend',
+    entry_points={'console_scripts': ['inor=inor:handler']},
     long_description=read_description(),
     long_description_content_type="text/markdown",
     license="MIT",
