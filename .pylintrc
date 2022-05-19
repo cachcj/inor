@@ -1,4 +1,4 @@
 [MASTER]
 disable=
-    C0301, # line-too-long
-    C0114, # missing-docstring
+    R0903, # Too few public methods
+    R0913, # To much args

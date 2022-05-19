@@ -18,9 +18,10 @@ def def_requirements():
 
 setuptools.setup(
     name="inor",
-    version='0.0.3',
+    version='0.0.4',
     description='Package Manager Backend',
     entry_points={'console_scripts': ['inor=inor:handler']},
+    data_files = [('man/man1', ['man/inor.1'])],
     long_description=read_description(),
     long_description_content_type="text/markdown",
     license="MIT",
@@ -28,7 +29,7 @@ setuptools.setup(
     url="https://github.com/Riffecs/inor",
     packages=["inor"],
     install_requires=def_requirements(),
-    python_requires=">=3.6",
+    python_requires=">=3.8",
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
@@ -36,6 +37,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
+        "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
     ],
