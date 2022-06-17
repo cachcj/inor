@@ -1,9 +1,26 @@
-# Intellij
+# Config files
+*.txt
+*.conf
+
+# Package
+*.pdk
+*.zip
+*.eof
+
+# Database
+*.db
+
+# test
+*test*.py
+
+# test files
+!test/*
+
+# Editor
+*vscode*
 *idea*
 
 
-# VSCode
-*vscode*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
