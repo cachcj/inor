@@ -18,7 +18,7 @@ def def_requirements():
 
 setuptools.setup(
     name="inor",
-    version='0.0.4',
+    version='0.0.5',
     description='Package Manager Backend',
     entry_points={'console_scripts': ['inor=inor:handler']},
     data_files = [('man/man1', ['man/inor.1'])],
